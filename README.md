@@ -1,2 +1,3 @@
-# sneakergram
-An instagram like app for sneakers
+# Sneakergram
+
+An Instagram like app for sneakers
