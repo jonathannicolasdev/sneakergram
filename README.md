@@ -2,38 +2,63 @@
 
 An Instagram-like app but only for sneakers. More hip hop or trendy.
 
-## Inspirations
-
-- [Instagram](https://instagram.com)
-- [StockX](https://stockx.com)
-
-## Features
-
-### Essentials
-
-- Seed initial users (3 users).
-- Seed inital pictures (3 pictures) for existing users. So at least there will be 9 pictures total.
-- See the pictures uploaded by other users from the homepage.
-- Register new user.
-- Login to user.
-- Upload pictures after logged in.
-- Delete picture after logged in.
-
-### Good to Have
-
-- Follow and unfollow other users.
-  - When we follow someone, their pictures will be shown on our homepage.
-
 ## Design
 
 - Figma URL: https://figma.com...
 
-## Specification
+## Timeline
 
+- Should be finished in 40 hours or 4-5 weeks.
+- 1 week = 8-10 hours in 3 sessions with Haidar + 5-10 hours alone.
+
+## References
+
+- [Instagram](https://instagram.com)
+- [StockX](https://stockx.com)
+  - [StockX on Instagram](https://instagram.com/stockx)
+
+## Features
+
+- Same layout with Instagram.com
+  - Different colors, typography to give it a street and sneaker vibe.
+- Seed initial users (3 users).
+- Seed inital sneakers (3 sneakers) for existing users. So at least there will be 9 sneakers total.
+- See the sneakers uploaded by other users from the homepage.
+- Register new user.
+  - Name
+  - Username
+  - Email
+  - Password
+- Login to user.
+  - Username
+  - Password
+- Logout from the app.
+- Upload sneakers after logged in.
+  - Photo: https://sneakergram-api.jonathannicolas.dev/images/pic1.jpg
+    - Upload with `multipart/form-data`.
+    - On the backend, it will use `multer` package.
+  - Description: This is a special drop of Jordan
+  - Brand name: Jordan Special
+  - Price: $500
+  - Location: Vancouver, BC, Canada
+  - URL or website to get that sneaker: https://jordan.com/shop/jordan-special
+  - What kind of other information?
+- Delete picture after logged in.
+
+### Tech Stack
+
+- React
 - Redux
   - Store replace React Context API
   - Reducer
   - Redux Thunk Middleware
+- Node.js
+  - MongoDB
+  - Mongoose
+  - Multer
+- Netlify
+- Amazon Web Services
+  - Amazon EC2
 
 ## License
 
