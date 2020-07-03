@@ -1,10 +1,11 @@
 # Sneakergram
 
-An Instagram-like app but only for sneakers. More hip hop or trendy.
+An Instagram app clone for sneaker heads. More hip hop or trendy.
 
 ## Design
 
 - Figma URL: https://figma.com...
+- Figma Prototype: https://figma.com...
 
 ## Timeline
 
@@ -39,7 +40,7 @@ An Instagram-like app but only for sneakers. More hip hop or trendy.
     - On the backend, it will use `multer` package.
   - Description: This is a special drop of Jordan
   - Brand name: Jordan Special
-  - Price: $500
+  - Price: \$500
   - Location: Vancouver, BC, Canada
   - URL or website to get that sneaker: https://jordan.com/shop/jordan-special
   - What kind of other information?
