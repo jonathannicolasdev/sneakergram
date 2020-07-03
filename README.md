@@ -4,7 +4,7 @@ An Instagram app clone for sneaker heads. More hip hop or trendy.
 
 ## Design
 
-- Figma URL: https://figma.com...
+- Figma Mockup: https://figma.com/file/5R2qQCLifemexpZVniLUXc/Sneakergram
 - Figma Prototype: https://figma.com...
 
 ## Timeline
